@@ -7,10 +7,10 @@ const Home = () => {
   return (
     <>
       <section
-        id="home"
-        className="min-h-screen max-w-8xl mx-auto text-center px-6 bg-gray-800 text-white"
+      
+        className=" max-w-8xl mx-auto text-center px-6 py-20 bg-gray-800 text-white"
       >
-        <div className="grid md:grid-cols-2 gap-12 items-center max-w-6xl mx-auto px-6 py-24">
+        <div className="grid md:grid-cols-2 gap-12 items-center max-w-6xl mx-auto px-6">
           {/* TEXT SECTION */}
           <div className="text-center md:text-left">
             <h2 className="text-4xl md:text-6xl font-extrabold leading-tight">
@@ -41,7 +41,7 @@ const Home = () => {
           </div>
 
           {/* IMAGE SECTION */}
-          <div className="flex justify-center">
+          <div className="flex justify-center items-center">
             <div className="relative">
               <img
                 src={paviimage}

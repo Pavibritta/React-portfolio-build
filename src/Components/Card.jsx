@@ -6,7 +6,7 @@ const Card = (props) => {
 
   return (
     <>
-      <section className="max-w-8xl bg-gray-800 text-white">
+      <section className="max-w-6xl bg-gray-800 text-white mx-auto">
         <h3 className="text-3xl font-bold text-center mb-12">Projects</h3>
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
